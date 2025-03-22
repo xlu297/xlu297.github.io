@@ -1,0 +1,205 @@
+/* Color Palette
+    #F4FAFF - Alice Blue
+    #E6E6E6: Light Gray
+    #C8D3D5: Pale Blue-Gray
+    #A5C4BF: Soft Teal
+    #6D8771: Sage Green
+    #A5B6C4: Dusty Blue
+    #535657: Davy's Gray
+*/
+
+/* Global styles
+---------------------------- */
+* {
+    font-family: Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+header,
+footer {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    background-color: #A5B6C4;
+    color: #F4FAFF;
+    font-size: 20px;
+}
+
+body {
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    background-color: #C8D3D5;
+    color: #535657;
+}
+
+h1 {
+    margin: 20px;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+h2 {
+    margin-bottom: 1.5vw;
+    color: #000;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Links */
+header a,
+footer a {
+    margin: 5px;
+    color: #F4FAFF;
+    text-decoration: none;
+}
+
+.go_back,
+.go_back a {
+    margin: 20px 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #535657;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6D8771;
+    text-decoration: underline;
+}
+
+.email {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.current_page {
+    font-weight: bold;
+}
+
+dt {
+    font-weight: bold;
+    color: #535657;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    max-width: 475px;
+    font-size: 19px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw auto;
+    padding: 3vw 5vw;
+    gap: 5vw;
+}
+
+img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    max-width: 500px;
+}
+
+/* Home Page */
+.intro_container {
+    align-items: center;
+}
+
+.self-intro {
+    flex: 1;
+    font-size: clamp(16px, 2.5vw, 26px);
+    line-height: 1.6;
+    margin-left: 2vw;
+}
+
+.selfie-img {
+    width: 50%;
+    height: auto;
+    /* border-radius: 10px; */
+    object-fit: cover;
+}
+
+/* Hobby and Movie Columns */
+.ceramics,
+.wood_working,
+.pirates_of_the_carribian,
+.mission_impossible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 45%;
+}
+
+.ceramics img,
+.wood_working img,
+.pirates_of_the_carribian img,
+.mission_impossible img {
+    width: 100%;
+    margin-bottom: 1.5vw;
+}
+
+.pirates_of_the_carribian p,
+.mission_impossible p {
+    padding-left: clamp(5px, 5vw, 7px);
+    padding-right: clamp(5px, 5vw, 7px);
+}
+
+/* Travel*/
+.travel_container {
+    display: flex;
+    padding: 3vw 5vw;
+    gap: 1vw;
+}
+
+.travel {
+    padding: 3vw;
+    align-items: center;
+}
+
+.travel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.travel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.travel li {
+    margin-bottom: 40px;
+}
+
+.travel img {
+    max-width: 75%;
+    max-height: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.travel p {
+    text-align: left;
+    max-width: 600px;
+    margin: 10px auto 0;
+}
